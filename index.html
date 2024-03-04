@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Herpes e Catapora - Trabalho de Biologia - 2º Ano</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #95c3c9;
+    }
+
+    .top-bar {
+        background-color: #d1b1b1;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 30px;
+    }
+
+    .med-bar {
+        background-color: #020000;
+        color: #fff;
+        text-align: right;
+        padding: 10px 0;
+        font-size: 15px;
+    }
+
+    .container {
+        max-width: 1200px; /* Alterado para 1000px */
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+        color: #333;
+        text-align: center;
+    }
+
+    p {
+        color: #666;
+    }
+
+    .details {
+        display: none;
+        margin-top: 10px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+    TRABALHO DE BIOLOGIA - 2º ANO - ESCOLA MASTER
+</div>
+
+<div class="med-bar">
+    GRUPO: JÚLIA SANTOS, SAMUEL, LAVÍNIA.
+</div>
+
+<div class="container">
+
+    <h1>Herpes e Catapora</h1>
+
+    <h2>Herpes</h2>
+    <img src="https://clinicaideal.med.br/wp-content/uploads/2019/07/herpes.jpg" width="400" alt="Herpes">
+    <p><H3>Herpes, ou cobreiro é uma doença causada pelo Vírus Varicela-Zóster (VVZ), o mesmo que causa também a Catapora. Esse vírus permanece em latência durante toda a vida da pessoa. A reativação ocorre na idade adulta ou em pessoas com comprometimento imunológico, como os portadores de doenças crônicas (hipertensão, diabetes), câncer, Aids, transplantados e outras.</H3></p>
+    <P><H3>Excepcionalmente, há pacientes que desenvolvem herpes-zóster após contato com doentes de varicela e, até mesmo, com outro doente de zóster, o que indica a possibilidade de uma reinfecção em paciente já previamente imunizado. É também possível uma criança adquirir varicela por contato com doente de zóster. A Herpes-Zóster pode levar a complicações e outras formas clínicas graves, inclusive, levar à morte.</H3></P>
+
+    <button onclick="toggleDetails('sintomash')">Sintomas</button>
+    <div id="sintomashDetails" class="details">
+        <p><h4>O quadro clínico do herpes-zóster, ou seja, os sinais e sintomas da doença, é quase sempre típico. Na maior parte dos casos, antecedem às lesões cutâneas (na pele) os seguintes sintomas:</h4></p>
+        <ul>
+            <li>Dores nevrálgicas (nos nervos);</li>
+            <li>Parestesias (formigamento, agulhadas, adormecimento, pressão etc);</li>
+            <li>Ardor e coceira locais;</li>
+            <li>Febre;</li>
+            <li>Dor de cabeça;</li>
+            <li>Mal-estar.</li>
+        </ul>
+        <p><h4>A lesão elementar é uma vesícula sobre a vermelhidão da pele.
+            A erupção é unilateral, raramente ultrapassa a linha mediana e segue o trajeto de um nervo. Surge de modo gradual e leva de 2 a 4 dias para se estabelecer. Quando não ocorre infecção secundária, as vesículas se dissecam, formam-se crostas e o quadro evolui para a cura em duas a 4 semanas. As regiões mais comprometidas são:</h4></p>
+            <ul>
+                <li>A torácica (53% dos casos);</li>
+                <li>Cervical (20%);</li>
+                <li>Correspondente ao trajeto do nervo trigêmeo (15%);</li>
+                <li>Lombossacra (11%).</li>
+            </ul>
+        </div>
+
+    <button onclick="toggleDetails('complicacoesh')">Complicações</button>
+    <div id="complicacoeshDetails" class="details">
+        <p><h4>A Herpes-Zóster pode provocar algumas complicações, listadas abaixo.</h4></p>
+        <ul>
+            <li>Ataxia cerebelar aguda, que pode afetar o equilíbrio, fala, deglutição, movimento dos olhos, mãos, pernas, dedos e braços;</li>
+            <li>Trombocitopenia, ou seja, baixa quantidade de plaquetas, responsáveis pela coagulação, no sangue;</li>
+            <li>Infecção bacteriana secundária de pele – impetigo, abscesso, celulite, erisipela, causadas por Staphylococcus aureus, Streptococcus pyogenes ou outras que podem levar a quadros sistêmicos de sepse, com artrite, pneumonia, endocardite, encefalite ou meningite e glomerulonefrite;</li>
+            <li>Síndrome de Reye, doença rara que causa inflamação no cérebro e que pode ser fatal, associada ao uso de AAS, principalmente em crianças;</li>
+            <li>Infecção fetal, durante a gestação, pode levar à embriopatia, com síndrome da varicela congênita (expressa-se com um ou mais dos seguintes sinais: malformação das extremidades dos membros, microftalmia, catarata, atrofia óptica e do sistema nervoso central);</li>
+            <li>Varicela disseminada ou varicela hemorrágica em pessoas com comprometimento imunológico;</li>
+            <li>Nevralgia pós-herpética (NPH) – dor persistente por 4 a 6 semanas após a erupção cutânea, que se caracteriza pela refratariedade ao tratamento. É mais frequente em mulheres e após comprometimento do trigêmeo.</li>
+        </ul>
+    </div>
+
+    <button onclick="toggleDetails('prevencaoh')">Prevenção</button>
+    <div id="prevencaohDetails" class="details">
+        <p><h4>As principais medidas de prevenção e controle contra a disseminação do vírus Varicela Herpes-Zóster são:</h4></p>
+        <ul>
+            <li>Vacinação;</li>
+            <li>Lavar as mãos após tocar nas lesões;</li>
+            <li>Isolamento: crianças com varicela não complicada só devem retornar à escola após todas as lesões terem evoluído para crostas. Crianças imunodeprimidas ou que apresentam curso clínico prolongado só deverão retornar às atividades após o término da erupção vesicular;</li>
+            <li>Pacientes internados: isolamento de contato e respiratório até a fase de crosta;</li>
+            <li>Desinfecção: concorrente dos objetos contaminados com secreções nasofaríngeas;</li>
+            <li>Imunoprofilaxia em surtos de ambiente hospitalar.</li>
+        </ul>
+    </div>
+
+    <button onclick="toggleDetails('tratamentoh')">Tratamento</button>
+    <div id="tratamentohDetails" class="details">
+        <p><h4>As indicações para o uso do aciclovir na infecção da Herpes-Zóster são: </h4></p>
+        <ul>
+            <li>Crianças sem comprometimento imunológico – 20mg/kg/dose, via oral, 5 vezes ao dia, dose máxima de 800mg/dia, durante 5 dias;</li>
+            <li>Crianças com comprometimento imunológico ou casos graves – deve-se fazer uso de aciclovir endovenoso na dosagem de 10mg/kg, a cada 8 horas, infundido durante uma hora, durante 7 a 14 dias;</li>
+            <li>Adultos sem comprometimento imunológico – 800mg, via oral, 5 vezes ao dia, durante 7 dias. A maior efetividade ocorre quando iniciado nas primeiras 24 horas da doença, ficando a indicação a critério médico;</li>
+            <li>Adultos com comprometimento imunológico – 10 a 15mg de aciclovir endovenoso, 3 vezes ao dia por no mínimo 7 dias. </li>
+        </ul>
+    </div>
+
+    <h2>Catapora</h2>
+    <img src="https://assets-global.website-files.com/6297a55c26ddb8a3fef94b06/63e66d48fdc1a1883ce4947b_catapora-3.jpg" width="400" alt="Catapora">
+    <p><h3>A Catapora (varicela) é uma doença infecciosa, altamente contagiosa, mas geralmente benigna, causada pelo vírus Varicela-Zoster, que se manifesta com maior frequência em crianças e com incidência no fim do inverno e início da primavera. A principal característica clínica é o polimorfismo das lesões cutâneas (na pele) que se apresentam nas diversas formas evolutivas (máculas, pápulas, vesículas, pústulas e crostas), acompanhadas de prurido (coceira).</h3></p>
+    <p><h3>Em crianças, geralmente é benigna e autolimitada. Em adolescentes e adultos, em geral, o quadro clínico é mais exuberante. A Catapora (varicela) é uma doença infecciosa e altamente contagiosa causada pelo vírus Varicela-Zoster que se manifesta com maior frequência em crianças. A principal característica clínica são lesões na pele acompanhadas de coceira.</h3></p>
+    
+    <button onclick="toggleDetails('transmissaoc')">Transmissão</button>
+    <div id="transmissaocDetails" class="details">
+        <p><h4>A catapora é facilmente transmitida para outras pessoas. O contágio acontece por meio do contato com o líquido da bolha ou pela tosse, espirro, saliva ou por objetos contaminados pelo vírus, ou seja, contato direto ou de secreções respiratórias. Indiretamente, é transmitida por meio de objetos contaminados com secreções de vesículas e membranas mucosas de pacientes infectados. </h4></p>
+        <p><h4>Raramente, a catapora (varicela) é transmitida por meio de contato com lesões de pele. O período de incubação do vírus Varicela, causador da Catapora, é de 4 a 16 dias. A transmissão se dá entre 1 a 2 dias antes do aparecimento das lesões de pele e até 6 dias depois, quando todas as lesões estiverem na fase de crostas.</h4></p>
+    </div>    
+
+    <button onclick="toggleDetails('sintomasc')">Sintomas</button>
+    <div id="sintomascDetails" class="details">
+        <p><h4>Os sintomas da catapora, em geral, começam entre 10 e 21 dias após o contágio da doença. Os principais sinais e sintomas da doença são:</h4></p>
+        <ul>
+            <li>manchas vermelhas e bolhas no corpo;</li>
+            <li>mal estar;</li>
+            <li>cansaço;</li>
+            <li>dor de cabeça;</li>
+            <li>perda de apetite;</li>
+            <li>febre baixa.</li>
+        </ul>
+
+        <p><h4>ETAPAS DOS SINTOMAS</h4></p>
+        <ul>
+            <li>Período prodrômico – inicia-se com febre baixa, cefaleia, anorexia e vômito, podendo durar de horas até 3 dias. Na infância, esses pródromos não costumam ocorrer, sendo o exantema o primeiro sinal da doença. Em crianças imunocompetentes, a varicela geralmente é benigna, com início repentino, apresentando febre moderada durante 2 a 3 dias, sintomas generalizados inespecíficos e erupção cutânea pápulo vesicular que se inicia na face, couro cabeludo ou tronco (distribuição centrípeta).</li>
+            <li>Período exantemático – as lesões comumente aparecem em surtos sucessivos de máculas que evoluem para pápulas, vesículas, pústulas e crostas. Tendem a surgir mais nas partes cobertas do corpo, podendo aparecer no couro cabeludo, na parte superior das axilas e nas membranas mucosas da boca e das vias aéreas superiores.</li>
+        </ul>
+    </div>
+
+    <button onclick="toggleDetails('complicacoesc')">Complicações</button>
+    <div id="complicacoescDetails" class="details">
+        <p><h4>As principais complicações da catapora, nos casos severos ou tratados inadequadamente, são:</h4></p>
+        <ul>
+            <li>encefalite;</li>
+            <li>pneumonia;</li>
+            <li>infecções na pele e ouvido.</li>
+        </ul>
+    </div>
+
+    <button onclick="toggleDetails('tratamentoc')">Tratamento</button>
+    <div id="tratamentocDetails" class="details">
+        <p><h4>No tratamento da catapora, em geral, são utilizados analgésicos e antitérmicos para aliviar a dor de cabeça e baixar a febre, e anti-histamínicos (antialérgicos) para aliviar a coceira. Os cuidados de higiene são muito importantes e devem ser feitos apenas com água e sabão.</h4></p>
+        <p><h4>Para diminuir a coceira, o ideal é fazer compressa de água fria. As vesículas não devem ser coçadas e as crostas não devem ser retiradas. Para evitar que isso aconteça, as unhas devem ser bem cortadas. A medicação a ser ministrada deve ser orientada por profissionais de saúde, pois o uso de analgésicos e antitérmicos à base de ácido acetilsalecílico é contraindicado e pode provocar problemas graves.</h4></p>
+        <p><h4>Para pessoas sem risco de agravamento da varicela, o tratamento deve ser sintomático. Havendo infecção secundária, recomenda-se o uso de antibióticos, em especial para combater estreptococos do grupo A e estafilococos.</h4></p>
+        <p><h4>O tratamento específico da catapora (varicela) é realizado por meio da administração do antiviral aciclovir, que é indicado para pessoas com risco de agravamento. Quando administrado por via endovenosa, nas primeiras 24 horas após o início dos sintomas, tem demonstrado redução de morbimortalidade em pacientes com comprometimento imunológico.</h4></p>
+        <p><h4>O uso de aciclovir oral para o tratamento de pessoas sem condições de risco de agravamento não está indicado até o momento, exceto para aquelas com idade inferior a 12 anos, portadoras de doença dermatológica crônica, pessoas com pneumopatias crônicas ou aquelas que estejam recebendo tratamento com AAS por longo tempo, pessoas que recebem medicamentos à base de corticoides por aerossol ou via oral ou via endovenosa.</h4></p>
+        
+        <p><h4>As indicações para o uso do aciclovir são:</h4></p>
+        <ul>
+            <li>Crianças sem comprometimento imunológico – 20mg/kg/dose, via oral, 5 vezes ao dia, dose máxima de 800mg/dia, durante 5 dias;</li>
+            <li>Crianças com comprometimento imunológico ou casos graves – deve-se fazer uso de aciclovir endovenoso na dosagem de 10mg/kg, a cada 8 horas, infundido durante uma hora, durante 7 a 14 dias;</li>
+            <li>Adultos sem comprometimento imunológico – 800mg, via oral, 5 vezes ao dia, durante 7 dias. A maior efetividade ocorre quando iniciado nas primeiras 24 horas da doença, ficando a indicação a critério médico;</li>
+            <li>Adultos com comprometimento imunológico – 10 a 15mg de aciclovir endovenoso, 3 vezes ao dia por no mínimo 7 dias.</li>
+        </ul>
+    </div>
+
+    <button onclick="toggleDetails('prevencaoc')">Prevenção</button>
+    <div id="prevencaocDetails" class="details">
+        <p><h4>As principais medidas de prevenção e controle da catapora (varicela) são:</h4></p>
+        <ul>
+            <li>Vacinação;</li>
+            <li>Lavar as mãos após tocar nas lesões;</li>
+            <li>Isolamento: crianças com varicela não complicada só devem retornar à escola após todas as lesões terem evoluído para crostas. Crianças imunodeprimidas ou que apresentam curso clínico prolongado só deverão retornar às atividades após o término da erupção vesicular;</li>
+            <li>Pacientes internados: isolamento de contato e respiratório até a fase de crosta;</li>
+            <li>Desinfecção: concorrente dos objetos contaminados com secreções nasofaríngeas;</li>
+            <li>Imunoprofilaxia em surtos de ambiente hospitalar.</li>
+        </ul>
+    </div>
+<br>
+<br>
+<br>
+<p>Para mais informações quanto à catapora-varicela, <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/catapora-varicela">clique aqui.</a></p>
+<p>Para mais informações quanto à herpes, <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/h/herpes">clique aqui.</a></p>
+<p>Fonte de pesquisa: Ministério da Saúde - gov.br</p>
+</div>
+
+<script>
+    function toggleDetails(id) {
+        var details = document.getElementById(id + 'Details');
+        if (details.style.display === 'none') {
+            details.style.display = 'block';
+        } else {
+            details.style.display = 'none';
+        }
+    }
+</script>
+
+
+</body>
+</html>
